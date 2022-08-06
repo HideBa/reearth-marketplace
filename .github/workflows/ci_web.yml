@@ -20,7 +20,7 @@ jobs:
         working-directory: web
     steps:
       - name: echo!!!
-        run: echo "-------hello-----------"
+        run: echo "-------hello----------"
       - name: show result
         run: echo '----${{ needs.ci_pre.outputs.web }}
 
